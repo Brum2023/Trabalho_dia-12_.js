@@ -1,0 +1,7 @@
+1-A arquitetura de software é, de forma simples, o esqueleto ou a estrutura fundamental de um sistema de computador. Ela define como o software é organizado em componentes de alto nível (módulos, serviços, camadas), como esses componentes interagem entre si e quais regras técnicas devem ser seguidas durante o desenvolvimento.
+2-O MVC é utilizado em muitos projetos devido a arquitetura que possui, o que possibilita a divisão do projeto em camadas muito bem definidas. Cada uma delas, o Model, o Controller e a View, executa o que lhe é definido e nada mais do que isso.
+
+A utilização do padrão MVC traz como benefício o isolamento das regras de negócios da lógica de apresentação, que é a interface com o usuário. Isto possibilita a existência de várias interfaces com o usuário que podem ser modificadas sem a necessidade de alterar as regras de negócios, proporcionando muito mais flexibilidade e oportunidades de reuso das classes.
+
+Uma das características de um padrão de projeto é poder aplicá-lo em sistemas distintos. O padrão MVC pode ser utilizado em vários tipos de projetos como, por exemplo, desktop, web e mobile.
+3-O fluxo de um projeto em MVC (Model-View-Controller) segue um padrão estruturado onde a interação do usuário passa por camadas distintas, promovendo a separação de conceitos. Em resumo, o usuário interage com a View, que envia ações ao Controller, que por sua vez manipula o Model e atualiza a View.
